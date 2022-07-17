@@ -1,0 +1,9 @@
+{
+  "cutlery_knife_2": {"diameter": 0.2309107312382861, "min_x": -0.004785, "min_y": -0.009786, "min_z": -0.115408, "size_x": 0.00957, "size_y": 0.019572, "size_z": 0.230816},
+  "cutlery_fork_3": {"diameter": 0.18919365110647873, "min_x": -0.009602, "min_y": -0.014173, "min_z": -0.094388, "size_x": 0.019204, "size_y": 0.028346, "size_z": 0.188776},
+  "glass_green_bottle": {"diameter": 0.13969868908833755, "min_x": -0.036219, "min_y": -0.036432, "min_z": -0.065649, "size_x": 0.072438, "size_y": 0.072864, "size_z": 0.131298, "symmetries_continuous": [{"axis": [0, 0, 1], "offset": [0, 0, 0]}]},
+  "cup_green_actys": {"diameter": 0.13874017732437854, "min_x": -0.055076, "min_y": -0.040497, "min_z": -0.044665, "size_x": 0.110152, "size_y": 0.080994, "size_z": 0.08933},
+  "can_meatball": {"diameter": 0.09361091594466961, "min_x": -0.037948, "min_y": -0.040206, "min_z": -0.03335, "size_x": 0.075896, "size_y": 0.080412, "size_z": 0.0667},
+  "teapot_white_blue_cone_top": {"diameter": 0.19548325432629773, "min_x": -0.096268, "min_y": -0.055712, "min_z": -0.068641, "size_x": 0.192536, "size_y": 0.111424, "size_z": 0.137282},
+  "cup_white_whisker": {"diameter": 0.10099193636622679, "min_x": -0.047339, "min_y": -0.034857, "min_z": -0.037887, "size_x": 0.094678, "size_y": 0.069714, "size_z": 0.075774}
+}

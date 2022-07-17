@@ -1,0 +1,8 @@
+{
+  "1": {"name": "cutlery_knife_2", "refractive_index": 2.75},
+  "2": {"name": "cutlery_fork_3", "refractive_index": 2.75},
+  "3": {"name": "glass_green_bottle","refractive_index": 1.52},
+  "4": {"name": "cup_green_actys","refractive_index": 1.5},
+  "5": {"name": "can_meatball", "refractive_index": 1.35},
+  "6": {"name": "teapot_white_blue_cone_top", "refractive_index": 1.54}
+}

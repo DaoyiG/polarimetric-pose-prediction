@@ -1,7 +1,7 @@
 # Polarimetric Pose Prediction
 This repo contains the code for the paper:  
 **[Polarimetric Pose Prediction](https://arxiv.org/abs/2112.03810)**  
-Daoyi Gao, Yitong Li, Patrick Ruhkamp, Iuliia Skobleva, Magdalena Wysock, HyunJun Jung, Pengyuan Wang, Arturo Guridi, Benjamin Busam  
+Daoyi Gao*, Yitong Li*, Patrick Ruhkamp*, Iuliia Skobleva*, Magdalena Wysock*, HyunJun Jung, Pengyuan Wang, Arturo Guridi, Benjamin Busam  
 ECCV 2022  
 
 ## Pipeline Overview

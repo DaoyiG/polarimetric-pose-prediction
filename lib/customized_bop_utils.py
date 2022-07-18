@@ -303,11 +303,3 @@ def get_symmetry_transformations(model_info, max_sym_disc_step):
 
     return trans
 
-# if __name__ == "__main__":
-#     # Sanity check for lm model: passed
-#     # model_path = '/home/daoyig/BOPDatasets/lm/models/obj_000001.ply'
-#
-#     # for green cup, simplified to 5% of original faces. 0.14024028691499457
-#     # model_path = '/home/daoyig/Downloads/cup_green_actys_simplified005_ply/cup_green_actys.ply'
-#     model_path = '/home/daoyig/MscThesis/polarizationposeresearch/data/our_data/models_ply/cup_white_whisker.ply'
-#     calc_model_info(model_path)

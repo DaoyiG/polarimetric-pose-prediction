@@ -47,24 +47,24 @@ class ResNetBackboneNet(nn.Module):
 
         return nn.Sequential(*layers)
 
-    def forward(self, x):  # x.shape [B, 3, 256, 256]
+    def forward(self, x): 
         self.features = []
 
-        x = self.conv1(x)  # x.shape [B, 64, 128, 128]
+        x = self.conv1(x) 
         x = self.bn1(x)
         x = self.relu(x)
-        x_low_feature = self.maxpool(x)  # x.shape [B, 64, 64, 64]
-        x_f64 = self.layer1(x_low_feature)  # x.shape [B, 64, 64, 64]
-        x_f32 = self.layer2(x_f64)  # x.shape [B, 128, 32, 32]
-        x_f16 = self.layer3(x_f32)  # x.shape [B, 256, 16, 16]
-        x_high_feature = self.layer4(x_f16)  # x.shape [B, 512, 8, 8]
+        x_low_feature = self.maxpool(x) 
+        x_f64 = self.layer1(x_low_feature)  
+        x_f32 = self.layer2(x_f64) 
+        x_f16 = self.layer3(x_f32)  
+        x_high_feature = self.layer4(x_f16)
         if self.use_skips:
-            self.features.append(x_f64) #  [B, 64, 64, 64]
-            self.features.append(x_f32) #  [B, 128, 32, 32]
-            self.features.append(x_f16) #  [B, 256, 16, 16]
-            self.features.append(x_high_feature) #  [B, 512, 8, 8]
+            self.features.append(x_f64)
+            self.features.append(x_f32)
+            self.features.append(x_f16) 
+            self.features.append(x_high_feature)
             return self.features
         else:
-            self.features.append(x_high_feature) #  [B, 512, 8, 8]
+            self.features.append(x_high_feature)
             return self.features
 
